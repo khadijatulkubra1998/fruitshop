@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10f91c48bf.js"></script>
+    <title>Fruit Shop</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fruit Shop</h1>
+    </header>
+    <main>
+        <section class="have">
+            <p>I have Rs.</p>
+            <input type="text" required id="rsamount">
+        </section>
+        <section class="total">
+            <p>Your total is Rs.</p>
+            <input type="text" id="totalamount">
+        </section>
+        <footer>
+            <div>
+                <h4>Rs.10</h4>
+                <figure>
+                    <img src="apple.jpg" alt="Apple" height="70">
+                    <figcaption>
+                        <section>
+                            Apple
+                        </section>
+                        <section class="button">
+                            <button onclick="appleLess();" id="less"><i class="fas fa-minus"></i></button> <input
+                                type="text" id="apple"> <button onclick="appleAdd();"><i
+                                    class="fas fa-plus"></i></button>
+                        </section>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <h4>Rs.15</h4>
+                <figure>
+                    <img src="orange.jpg" alt="orange" height="70">
+                    <figcaption>
+                        <section>
+                            Orange
+                        </section>
+                        <section class="button">
+                            <button id="less" onclick=" orangeLess();"><i class="fas fa-minus"></i></button> <input
+                                type="text" id="orange">
+                            <button onclick="orangeAdd();"><i class="fas fa-plus"></i></button>
+                        </section>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <h4>Rs.7</h4>
+                <figure>
+                    <img src="banana.jpg" alt="banana" height="70">
+                    <figcaption>
+                        <section>
+                            Banana
+                        </section>
+                        <section class="button">
+                            <button id="less" onclick="bananaLess();"><i class="fas fa-minus"></i></button> <input
+                                type="text" id="banana">
+                            <button onclick=" bananaAdd();"><i class="fas fa-plus"></i></button>
+                        </section>
+                    </figcaption>
+                </figure>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
