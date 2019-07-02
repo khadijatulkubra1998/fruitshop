@@ -77,12 +77,10 @@ footer button {
     border-radius: 5px;
 }
 
-#totalamount {
-    border: none;
-    background-color: #efe2cc;
+span {
+  
     color: red;
     font-size: 30px;
     font-weight: bold;
-    display: inline-block;
-    width: 35px;
+ 
 }

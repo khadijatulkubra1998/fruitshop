@@ -20,8 +20,8 @@
             <input type="text" required id="rsamount">
         </section>
         <section class="total">
-            <p>Your total is Rs.</p>
-            <input type="text" id="totalamount">
+            <p>Your total is Rs.<span id="bill">0</span></p>
+            
         </section>
         <footer>
             <div>
@@ -33,7 +33,7 @@
                             Apple
                         </section>
                         <section class="button">
-                            <button onclick="appleLess();" id="less"><i class="fas fa-minus"></i></button> <input
+                            <button onclick="appleLess()" id="less"><i class="fas fa-minus"></i></button> <input
                                 type="text" id="apple"> <button onclick="appleAdd();"><i
                                     class="fas fa-plus"></i></button>
                         </section>
